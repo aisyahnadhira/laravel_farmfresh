@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+/* MASTER */
+.header {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .brand {
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 13px;
+    color: #222;
+}
+.header .navbar a {
+    font-size: 20px;
+    color: #666;
+    margin: 10px;
+}
+
+.header .navbar a:hover {
+    color: #367a25;
+    text-decoration: none;
+}
+
+.header .icons a i{
+    font-size: 25px;
+    margin-left: 22px;
+    padding: 10px;
+    color: #666;
+    margin-top: 7px;
+}
+
+.header .icons a i:hover {
+    color: #367a25;
+}
+.header .search-form {
+    margin-top: 10px;
+}
+/* UNIVERSAL */
+.judul{
+    color: #367a25;
+    padding-left: 40px;
+    font-size: 30px;
+}
+/* SHOP */
+.box{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: rgb(224, 224, 224);
+    /* padding: 10px; */
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.container .icons a {
+    font-size: 25px;
+    margin-left: 22px;
+    padding: 10px;
+    color: #666;
+    margin-top: 13px;
+}
+
+.container .icons a:hover {
+    color: #367a25;
+    text-decoration: none;
+}
+
+/* Login */
+.login{
+    background: url(../img/banner3.png) no-repeat;
+    background-size: cover;
+}
+
+.login .row{
+    padding-left: 35%;
+}
+
+.login button{
+    margin-left: 35%;
+
+}
+
+/* Input */
+.input{
+    background: url(../img/banner1.png) no-repeat;
+    background-size: cover;
+}
+
+.input .row{
+    padding-left: 35%;
+}
+
+.input button{
+    margin-left: 30%;
+ }
+
+.input .next{
+    text-decoration: none;
+    color: #666;
+
+}
+
+.input .next:hover {
+    color: #367a25;
+
+}
+
+.container .previous{
+    text-decoration: none;
+    color: #666;
+    /* padding-left: -3%; */
+
+}
+
+.container .previous:hover{
+    color: #367a25;
+
+}
+
+.checkout{
+    background: url(../img/banner1.png) no-repeat;
+}
+.checkout .row{
+    /* margin: 5%; */
+    padding-left: 25%;
+}
+
+.checkout .btn{
+    margin-left: 40%;
+}
+
+
