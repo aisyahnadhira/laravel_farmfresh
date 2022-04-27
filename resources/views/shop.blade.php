@@ -50,9 +50,9 @@
                             Harga : Rp. {{$tugas->harga}}/Kg<br>
                             Stok: {{$tugas->stok}} Kg<br>
                             <div class="icons">
-                                <a href="/cart" class="fas fa-shopping-cart"></a>
-                                <a href="/shop" class="fas fa-heart"></a>
-                                <a href="/shop" class="fas fa-share"></a>
+                                <a href="/cart" title="Cart" class="fas fa-shopping-cart"></a>
+                                <a href="/shop" title="Favorite" class="fas fa-heart"></a>
+                                <a href="/shop" title="Share" class="fas fa-share"></a>
                             </div>
                             </div>
                     </div>

@@ -31,9 +31,9 @@
             {{-- <div class="fas fa-shopping-cart"></div>
             <div class="fas fa-user"></div>
             <div class="fas fa-cog"></div> --}}
-            <a @yield('shoping') href="/cart"><i class="fas fa-shopping-cart"></i></a>
-            <a @yield('user') href="#"><i class="fas fa-user"></i></a>
-            <a @yield('admin') href="/admin"><i class="fas fa-cog"></i></a>
+            <a @yield('shoping') href="/cart" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+            <a @yield('user') href="#" title="Profile"><i class="fas fa-user"></i></a>
+            <a @yield('admin') href="/admin" title="Admin"><i class="fas fa-cog"></i></a>
         </div>
     </header>
     @yield('content')
